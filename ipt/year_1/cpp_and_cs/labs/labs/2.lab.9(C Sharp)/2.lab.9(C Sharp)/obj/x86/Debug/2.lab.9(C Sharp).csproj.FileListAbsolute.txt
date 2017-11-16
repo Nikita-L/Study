@@ -1,0 +1,19 @@
+c:\users\nikita\documents\visual studio 2010\Projects\2.lab.9(C Sharp)\2.lab.9(C Sharp)\bin\Debug\2.lab.9(C Sharp).exe
+c:\users\nikita\documents\visual studio 2010\Projects\2.lab.9(C Sharp)\2.lab.9(C Sharp)\bin\Debug\2.lab.9(C Sharp).pdb
+c:\users\nikita\documents\visual studio 2010\Projects\2.lab.9(C Sharp)\2.lab.9(C Sharp)\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\nikita\documents\visual studio 2010\Projects\2.lab.9(C Sharp)\2.lab.9(C Sharp)\obj\x86\Debug\_2.lab._9_C_Sharp_.Properties.Resources.resources
+c:\users\nikita\documents\visual studio 2010\Projects\2.lab.9(C Sharp)\2.lab.9(C Sharp)\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\nikita\documents\visual studio 2010\Projects\2.lab.9(C Sharp)\2.lab.9(C Sharp)\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\nikita\documents\visual studio 2010\Projects\2.lab.9(C Sharp)\2.lab.9(C Sharp)\obj\x86\Debug\2.lab.9(C Sharp).exe
+c:\users\nikita\documents\visual studio 2010\Projects\2.lab.9(C Sharp)\2.lab.9(C Sharp)\obj\x86\Debug\2.lab.9(C Sharp).pdb
+c:\users\nikita\documents\visual studio 2010\Projects\2.lab.9(C Sharp)\2.lab.9(C Sharp)\obj\x86\Debug\_2.lab._9_C_Sharp_.Rectangle.resources
+C:\Users\Nikita\Documents\Visual Studio 2010\Projects\2.lab.9(C Sharp)\2.lab.9(C Sharp)\bin\Debug\2.lab.9(C Sharp).exe.config
+C:\Users\Lyovkin\Downloads\2.lab.9(C_Sharp)-2015-05-24\2.lab.9(C Sharp)\2.lab.9(C Sharp)\bin\Debug\2.lab.9(C Sharp).exe.config
+C:\Users\Lyovkin\Downloads\2.lab.9(C_Sharp)-2015-05-24\2.lab.9(C Sharp)\2.lab.9(C Sharp)\obj\x86\Debug\2.lab.9(C Sharp).exe
+C:\Users\Lyovkin\Downloads\2.lab.9(C_Sharp)-2015-05-24\2.lab.9(C Sharp)\2.lab.9(C Sharp)\obj\x86\Debug\2.lab.9(C Sharp).pdb
+C:\Users\Lyovkin\Downloads\2.lab.9(C_Sharp)-2015-05-24\2.lab.9(C Sharp)\2.lab.9(C Sharp)\bin\Debug\2.lab.9(C Sharp).exe
+C:\Users\Lyovkin\Downloads\2.lab.9(C_Sharp)-2015-05-24\2.lab.9(C Sharp)\2.lab.9(C Sharp)\bin\Debug\2.lab.9(C Sharp).pdb
+C:\Users\Lyovkin\Downloads\2.lab.9(C_Sharp)-2015-05-24\2.lab.9(C Sharp)\2.lab.9(C Sharp)\obj\x86\Debug\2.lab.9(C Sharp).csprojResolveAssemblyReference.cache
+C:\Users\Lyovkin\Downloads\2.lab.9(C_Sharp)-2015-05-24\2.lab.9(C Sharp)\2.lab.9(C Sharp)\obj\x86\Debug\_2.lab._9_C_Sharp_.Rectangle.resources
+C:\Users\Lyovkin\Downloads\2.lab.9(C_Sharp)-2015-05-24\2.lab.9(C Sharp)\2.lab.9(C Sharp)\obj\x86\Debug\_2.lab._9_C_Sharp_.Properties.Resources.resources
+C:\Users\Lyovkin\Downloads\2.lab.9(C_Sharp)-2015-05-24\2.lab.9(C Sharp)\2.lab.9(C Sharp)\obj\x86\Debug\2.lab.9(C Sharp).csproj.GenerateResource.Cache

@@ -1,0 +1,23 @@
+﻿Build started 17.02.2015 9:46:46.
+     1>Project "C:\Users\stud\Desktop\2.lab3\2.lab2\2.lab2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt get.cpp
+         get.cpp
+     1>c:\users\stud\desktop\2.lab3\2.lab2\head.h(51): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\stud\desktop\2.lab3\2.lab2\head.h(73): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\stud\Desktop\2.lab3\Debug\2.lab2.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\stud\Desktop\2.lab3\Debug\2.lab2.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\stud\Desktop\2.lab3\Debug\2.lab2.lib" /MACHINE:X86 Debug\=.obj
+         Debug\==.obj
+         Debug\expcompare.obj
+         Debug\get.obj
+         Debug\getbonus.obj
+         Debug\main.obj
+         Debug\postchange.obj
+         Debug\show.obj
+     1>=.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+         2.lab2.vcxproj -> C:\Users\stud\Desktop\2.lab3\Debug\2.lab2.exe
+     1>Done Building Project "C:\Users\stud\Desktop\2.lab3\2.lab2\2.lab2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.09

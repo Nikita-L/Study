@@ -1,0 +1,8 @@
+c:\users\lyovkin\documents\visual studio 2010\Projects\2.lab.6(CSharp)\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+c:\users\lyovkin\documents\visual studio 2010\Projects\2.lab.6(CSharp)\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+c:\users\lyovkin\documents\visual studio 2010\Projects\2.lab.6(CSharp)\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+c:\users\lyovkin\documents\visual studio 2010\Projects\2.lab.6(CSharp)\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
+C:\Users\Lyovkin\Documents\Visual Studio 2010\Projects\2.lab.8(CSharp)\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+C:\Users\Lyovkin\Documents\Visual Studio 2010\Projects\2.lab.8(CSharp)\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
+C:\Users\Lyovkin\Documents\Visual Studio 2010\Projects\2.lab.8(CSharp)\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\Lyovkin\Documents\Visual Studio 2010\Projects\2.lab.8(CSharp)\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb

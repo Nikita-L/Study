@@ -1,0 +1,7 @@
+c:\users\lyovkin\documents\visual studio 2010\Projects\2.lab.10(CSharp)\2.lab.10(CSharp)\bin\Debug\2.lab.10(CSharp).exe
+c:\users\lyovkin\documents\visual studio 2010\Projects\2.lab.10(CSharp)\2.lab.10(CSharp)\bin\Debug\2.lab.10(CSharp).pdb
+c:\users\lyovkin\documents\visual studio 2010\Projects\2.lab.10(CSharp)\2.lab.10(CSharp)\obj\x86\Debug\_2.lab._10_CSharp_.Form1.resources
+c:\users\lyovkin\documents\visual studio 2010\Projects\2.lab.10(CSharp)\2.lab.10(CSharp)\obj\x86\Debug\_2.lab._10_CSharp_.Properties.Resources.resources
+c:\users\lyovkin\documents\visual studio 2010\Projects\2.lab.10(CSharp)\2.lab.10(CSharp)\obj\x86\Debug\2.lab.10(CSharp).csproj.GenerateResource.Cache
+c:\users\lyovkin\documents\visual studio 2010\Projects\2.lab.10(CSharp)\2.lab.10(CSharp)\obj\x86\Debug\2.lab.10(CSharp).exe
+c:\users\lyovkin\documents\visual studio 2010\Projects\2.lab.10(CSharp)\2.lab.10(CSharp)\obj\x86\Debug\2.lab.10(CSharp).pdb

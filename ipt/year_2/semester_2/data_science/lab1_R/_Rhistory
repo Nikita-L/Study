@@ -1,0 +1,227 @@
+install.packages("devtools")
+install.packages('RCurl')
+library(devtools)
+install_github('armstrtw/rzmq')
+install_github("takluyver/IRdisplay")
+install_github("takluyver/IRkernel")
+install.packages(pkgs, lib, repos = getOption("repos"),
+contriburl = contrib.url(repos, type),
+method, available = NULL, destdir = NULL,
+dependencies = NA, type = getOption("pkgType"),
+configure.args = getOption("configure.args"),
+configure.vars = getOption("configure.vars"),
+clean = FALSE, Ncpus = getOption("Ncpus", 1L),
+verbose = getOption("verbose"),
+libs_only = FALSE, INSTALL_opts, quiet = FALSE,
+keep_outputs = FALSE, ...)
+install.packages(c('rzmq','repr','IRkernel','IRdisplay'),
+repos = c('http://irkernel.github.io/', getOption('repos')))
+r <- getOption('repos')
+r$IRkernel <- 'http://irkernel.github.io/'
+options(repos = r)
+IRkernel::installspec()
+install.packages(c('rzmq', 'repr', 'IRkernel', 'IRdisplay'), repos = c('http://irkernel.github.io/', getOption('repos')), type = 'source')
+install.packages(c('rzmq','repr','IRkernel','IRdisplay'),
+repos = c('http://irkernel.github.io/', getOption('repos')),
+type = 'source')
+IRkernel::installspec()
+install.packages(c('rzmq','repr','IRkernel','IRdisplay'),
+repos = c('http://irkernel.github.io/', getOption('repos')),
+type = 'source')
+chooseCRANmirror(graphics = getOption("menu.graphics"), ind = NULL,
+useHTTPS = getOption("useHTTPS", TRUE),
+local.only = FALSE)
+install.packages(c('rzmq','repr','IRkernel','IRdisplay'),
+repos = c('http://irkernel.github.io/', getOption('repos')),
+type = 'source')
+install.packages(c('rzmq','repr','IRkernel','IRdisplay'),
+repos = c('http://irkernel.github.io/', getOption('repos')),
+type = 'source')
+456+123
+1+2
+3+4
+3/2
+2/3
+getwd()
+setwd("~/Notebooks")
+getwd()
+?plot()
+# install.packages("foreach", repos="http://R-Forge.R-project.org")
+# install.packages("doMC", repos="http://R-Forge.R-project.org")
+library(foreach) # Используются итераторы, поскольку они быстрее встроенных циклов
+library(doMC)
+registerDoMC(cores=4)
+setwd("/home/nikita/Notebooks/SRP/lab1_R")
+source("additional.R")
+raw.path <- "data/raw/"
+raw.data <- list.files(path = raw.path)
+lapply(raw.data, function(x) { # Очистка данных
+table <- read.csv(paste(raw.path, x, sep = ""), skip = 1)
+table <- table[!(table$SMN < 0 | table$SMT < 0 | table$VCI < 0 | table$TCI < 0 | table$VHI < 0 | table$X.Area_VHI_LESS_15 < 0 | table$X.Area_VHI_LESS_35 < 0),]
+names(table)[1] <- "Год"
+names(table)[2] <- "Неделя"
+names(table)[8] <- "Процент площади где VHI < 15%"
+names(table)[9] <- "Процент площади где VHI < 35%"
+write.csv(table, paste("data/clean/", x, sep = ""), row.names = F)
+})
+j <- 0
+for (i in region_names){ # Изменение индексов
+j <- j + 1
+current_file <- paste0("data/clean/", list.files(path = "data/clean/", pattern = glob2rx(paste0("?? ", i, " ????-??-?? ??:??:??.csv"))))
+new_current_file <- paste0("data/clean/", sprintf( "%02d", j), substring(current_file, 14))
+file.rename(current_file, new_current_file)
+}
+df <- plotMake("Киев", "VHI")
+df <- subset(df , Год >= year.from & Год <= year.to)
+df <- subset(df , Год >= 1981 & Год <= 1983)
+df
+max(df)
+max(df["VHI"])
+max(df["Год"])
+df <- subset(df, data, Год >= 1981 & Год <= 1983)
+df <- plotMake("Киев", "VHI")
+extCount(df)
+extCount(df)
+df <- plotMake("Киев", "VHI")
+extCount(df)
+df <- plotMake("Киев", "VHI")
+# extCount(df)
+df <- subset(df , Год >= year.from & Год <= year.to)
+df <- plotMake("Киев", "VHI")
+# extCount(df)
+df <- subset(df , Год >= 1981 & Год <= 9999)
+df1 <- subset(df, data == max(df[data]))
+df <- subset(df , Год >= 1981 & Год <= 9999)
+df1 <- subset(df, VHI == max(df[data]))
+df2 <- subset(df, VHI == min(df[data]))
+df <- subset(df , Год >= 1981 & Год <= 9999)
+df1 <- df[which.max(d[df,data])]
+df2 <- df[which.min(d[df,data])]
+?which.max
+?max
+mat <- matrix(c(1:3,7:9,4:6),byrow=T,nc=3)
+which.max( matrix[,2] )
+which.max( mat[,2] )
+order(mat[,2],decreasing=T)[1]
+df1 <- df[which.max(df["VHI"])]
+df[which.max(df$VHI)]
+df[which.max(df[,"VHI"])]
+df[which.max(df[df,"VHI"])]
+df[ df$data == max( df$data ) , ]
+?print
+print("good")
+print("good", "\n", "bad")
+print ("good", "bad")
+?cat
+cat("good", "\n", "bad")
+cat("good", "\n", "sbad")
+extCount(df)
+df <- plotMake("Киев", "VHI")
+extCount(df)
+df <- plotMake("Киев", "VHI")
+# install.packages("foreach", repos="http://R-Forge.R-project.org")
+# install.packages("doMC", repos="http://R-Forge.R-project.org")
+library(foreach) # Используются итераторы, поскольку они быстрее встроенных циклов
+library(doMC)
+registerDoMC(cores=4)
+setwd("/home/nikita/Notebooks/SRP/lab1_R")
+source("additional.R")
+df <- plotMake("Киев", "VHI")
+extCount(df)
+df <- plotMake("Киев", "VHI")
+extCount(df)
+# install.packages("foreach", repos="http://R-Forge.R-project.org")
+# install.packages("doMC", repos="http://R-Forge.R-project.org")
+library(foreach) # Используются итераторы, поскольку они быстрее встроенных циклов
+library(doMC)
+registerDoMC(cores=4)
+setwd("/home/nikita/Notebooks/SRP/lab1_R")
+source("additional.R")
+df <- plotMake("Киев", "VHI")
+extCount(df)
+# install.packages("foreach", repos="http://R-Forge.R-project.org")
+# install.packages("doMC", repos="http://R-Forge.R-project.org")
+library(foreach) # Используются итераторы, поскольку они быстрее встроенных циклов
+library(doMC)
+registerDoMC(cores=4)
+setwd("/home/nikita/Notebooks/SRP/lab1_R")
+source("additional.R")
+df <- plotMake("Киев", "VHI")
+extCount(df)
+df1 <- subset(df , "Процент площади где VHI < 15%" >= percent)
+df1 <- subset(df , "Процент площади где VHI < 15%" >= 30)
+df1
+library(foreach) # Используются итераторы, поскольку они быстрее встроенных циклов
+library(doMC)
+registerDoMC(cores=4)
+setwd("/home/nikita/Notebooks/SRP/lab1_R")
+source("additional.R")
+foreach(i = 1:27) %do% { # Загрузка данных
+df <- plotMake("Киев", "VHI")
+extCount(df)
+library(foreach) # Используются итераторы, поскольку они быстрее встроенных циклов
+library(doMC)
+registerDoMC(cores=4)
+setwd("/home/nikita/Notebooks/SRP/lab1_R")
+source("additional.R")
+df <- plotMake("Киев", "VHI")
+extCount(df)
+area(df, 35)
+area(df, 50)
+area(df, 30)
+area(df, 70)
+area(df, 70.0)
+df <- df[df["Процент площади где VHI < 15%"] >= 35,]
+df <- df[df["Процент площади где VHI < 15%"] > 35,]
+df <- df[df[,"Процент площади где VHI < 15%"] > 35]
+df
+df[1]
+df[,1]
+df[1,]
+df <- df[df$Процент.площади.где.VHI.<.15% > 35,]
+df <- df[df$Процент.площади.где.VHI.<.15 > 35,]
+df <- df[df$Процент.площади.где.VHI.<.15. > 35,]
+df <- df[df$Процент.площади.где.VHI...15. > 35,]
+df
+# install.packages("doMC", repos="http://R-Forge.R-project.org")
+library(foreach) # Используются итераторы, поскольку они быстрее встроенных циклов
+library(doMC)
+registerDoMC(cores=4)
+setwd("/home/nikita/Notebooks/SRP/lab1_R")
+source("additional.R")
+df <- plotMake("Киев", "VHI")
+extCount(df)
+area(df, 35.5)
+area(df, 35.5, VHI.35 = T)
+library(foreach) # Используются итераторы, поскольку они быстрее встроенных циклов
+library(doMC)
+registerDoMC(cores=4)
+setwd("/home/nikita/Notebooks/SRP/lab1_R")
+source("additional.R")
+library(foreach) # Используются итераторы, поскольку они быстрее встроенных циклов
+library(doMC)
+registerDoMC(cores=4)
+setwd("/home/nikita/Notebooks/SRP/lab1_R")
+source("additional.R")
+df <- plotMake("Киев", "VHI")
+extCount(df)
+area(df, 35.5, VHI.35 = T)
+library(foreach) # Используются итераторы, поскольку они быстрее встроенных циклов
+library(doMC)
+registerDoMC(cores=4)
+setwd("/home/nikita/Notebooks/SRP/lab1_R")
+source("additional.R")
+df <- plotMake("Киев", "VHI")
+extCount(df)
+area(df, 35.5, VHI.35 = T)
+library(foreach) # Используются итераторы, поскольку они быстрее встроенных циклов
+library(doMC)
+registerDoMC(cores=4)
+setwd("/home/nikita/Notebooks/SRP/lab1_R")
+source("additional.R")
+df <- plotMake("Киев", "VHI")
+extCount(df)
+area(df, 35.5, VHI.35 = T)
+area(df, 45, VHI.35 = T)
+area(df, 60, VHI.35 = T)
+area(df, 70, VHI.35 = T)
