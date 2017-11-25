@@ -54,10 +54,10 @@ def main():
     plt.grid(True)
     plt.show()
 
-    print("Number of errors= %s" % err)
-    print("w1= %s" % w1)
-    print("w2= %s" % w2)
-    print("w0= %s" % w0)
+    print(f"Errors: {err}")
+    print(f"w1: {w1}")
+    print(f"w2: {w2}")
+    print(f"w0: {w0}")
 
 
 if __name__ == "__main__":
