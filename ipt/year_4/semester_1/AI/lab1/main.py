@@ -2,11 +2,9 @@ import numpy as np
 import random
 import matplotlib.pyplot as plt
 
-matplotlib.use('agg')
-
 
 def main():
-    my_data = np.genfromtxt('data09.csv', delimiter=';')
+    my_data = np.genfromtxt('data/data09.csv', delimiter=';')
     w1 = random.uniform(0., 1.)
     w2 = random.uniform(0., 1.)
     w0 = 1
@@ -45,7 +43,7 @@ def main():
         if my_data[k + 81, 2] == 0:
             zerox1_x2[k, 0] = my_data[k + 81, 0]
             zerox1_x2[k, 1] = my_data[k + 81, 1]
-        elif (my_data[k + 81, 2] == 1):
+        elif my_data[k + 81, 2] == 1:
             onex1_x2[k, 0] = my_data[k + 81, 0]
             onex1_x2[k, 1] = my_data[k + 81, 1]
 
